@@ -1,0 +1,90 @@
+html, body {
+  height: 100%;
+}
+
+.table-container {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.table-block {
+  display: table-row;
+  height: 1px;
+}
+.header {
+   margin-top: 20px;
+   text-align: center;
+}
+.social {
+   text-align: right;
+   margin-top: 20px;
+   display: block;
+    width: 100%;
+    height: 6.5rem;
+    z-index: 99;
+    border-bottom: 1px solid #eee;
+}
+.social-icon {
+   display: inline-block;
+}
+.top-nav {
+   margin-top: 20px;
+   display: block;
+    width: 100%;
+    height: 6.5rem;
+    z-index: 99;
+    border-bottom: 1px solid #eee;
+}
+.top-nav ul {
+   list-style: none;
+   margin: 0;
+}
+.top-nav li {
+   display: inline-block;
+}
+.top-nav a {
+    text-transform: uppercase;
+   color: #333;
+   font-size: 1.5rem;
+   padding-left: 1rem;
+   line-height: 6.5rem;
+   text-decoration: none;
+}
+.about-me, .about-site {
+   font-size: 2rem;
+   margin-top: 2rem;
+}
+.top-section {
+   border-bottom: 1px solid #eee;
+}
+.bot-section {
+   margin-top: 2rem;
+}
+.content-header {
+   text-align: center;
+}
+
+
+.footer-push {
+  height: auto;
+}
+
+.footer {
+  /* Placeholder footer styles */
+  color: #777;
+  text-align: center;
+  line-height: 5.5rem;
+  font-size: 1.5rem;
+  height: 5rem;
+  border-top: 1px solid #eee;
+}
+@media screen and (max-width: 600px) {
+    .top-nav {
+      text-align: center;
+   }
+   .footer {
+      font-size: 1.3rem;
+   }
+
+}

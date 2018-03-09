@@ -1,0 +1,94 @@
+/*Mobile First Stylesheet*/
+
+html, body {
+	height: 100%;
+}
+.site-container {
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+.cover-image {
+	height: 100%;
+	background-image: url('../res/photo-min.jpeg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #464646;
+}
+.burger-nav {
+	position: absolute;
+	top: 3%;
+	right: 5%;
+	height: 20px;
+	width: 20px;
+	background: url('../res/burger-icon.png') no-repeat center;
+/*	background-color: #404040;*/
+	cursor: pointer;
+}
+
+header nav ul {
+	position: absolute;
+	top: 4%;
+	width: 100%;
+	overflow: hidden;
+	padding: 0;
+	background-color: rgba(0, 0, 0, 0.2);
+	background: rgba(0, 0, 0, 0.2);
+	height: 0;
+	list-style-type: none;
+}
+
+header nav ul li {
+	float: none;
+	text-align: center;
+	width: 100%;
+	margin: 0;
+}
+
+header nav ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	border-bottom: 1px solid rgba(256, 256, 256, 0.5);
+/*	border-bottom: 1px solid white;*/
+	display: block;
+	margin: 0;
+}
+/* Adds white border-top to only the Home */
+#home-border{
+	border-top: 1px solid rgba(256, 256, 256, 0.5);
+}
+
+header nav ul.open {
+	height: auto;
+}
+
+
+.center-text {
+	width: 100%;
+	text-align: center;
+	text-align: center;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+.center-text h1 {
+  	color: rgb(255, 255, 255);
+  	font-size: 48px;
+  	font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+}
+
+@media screen and (min-width: 481px) and (max-width: 780px) {
+	/*Code*/
+}
+
+@media screen and (min-width: 781px) and (max-width: 1280px) {
+	/*Code*/
+}
+
+@media screen and (max-width: 1281) {
+	/*Code*/
+}
